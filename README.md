@@ -1,5 +1,5 @@
 # Image-Metadata-Remover-Script
-Removes metadata AKA (EXIF) information on all images detected (exept .gif files)
+Removes metadata AKA (EXIF) information on all images detected (except .gif files)
 
 This script will remove metadata from the images found on the passed path including its subfolders.
 
