@@ -57,12 +57,7 @@ def dothis():
 
 source_input = str(input("Please paste the directory containing images: "))
 source_dir = (source_input)
-source_dir = source_dir.strip('"')
-source_dir2 = source_dir.replace('[', 'o[o')
-source_dir2 = source_dir2.replace(']', 'o]o')
-source_dir2 = source_dir2.replace('o[o', '[[]')
-source_dir2 = source_dir2.replace('o]o', '[]]')
-directory = source_dir2.replace('#', '[#]')
+directory = source_dir.strip('"')
 folderssub = fast_scandir(directory)
 
 for directory in folderssub:
